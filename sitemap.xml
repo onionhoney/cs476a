@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://onionhoney.github.io/cs476a/categories/</loc>
+    <loc>https://onionhoney.github.io/cs476a/posts/my-first-post/</loc>
+    <lastmod>2020-09-21T01:03:39-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://onionhoney.github.io/cs476a/</loc>
+    <lastmod>2020-09-21T01:03:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onionhoney.github.io/cs476a/posts/</loc>
+    <lastmod>2020-09-21T01:03:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onionhoney.github.io/cs476a/categories/</loc>
   </url>
   
   <url>

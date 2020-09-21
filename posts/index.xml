@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jeffrey Sun&#39;s CS476a Blog</title>
-    <link>https://onionhoney.github.io/cs476a/</link>
-    <description>Recent content on Jeffrey Sun&#39;s CS476a Blog</description>
+    <title>Posts on Jeffrey Sun&#39;s CS476a Blog</title>
+    <link>https://onionhoney.github.io/cs476a/posts/</link>
+    <description>Recent content in Posts on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 01:03:39 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2020 01:03:39 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS476a - Assignment 1</title>
       <link>https://onionhoney.github.io/cs476a/posts/my-first-post/</link>
