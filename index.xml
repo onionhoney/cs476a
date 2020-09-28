@@ -6,7 +6,16 @@
     <description>Recent content on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 01:03:39 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 17:03:39 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS476a - Reading Response 2</title>
+      <link>https://onionhoney.github.io/cs476a/posts/reading-response-2/</link>
+      <pubDate>Sun, 27 Sep 2020 17:03:39 -0400</pubDate>
+      
+      <guid>https://onionhoney.github.io/cs476a/posts/reading-response-2/</guid>
+      <description>For this week&amp;rsquo;s reading, I&amp;rsquo;d like to respond to principle 2.2 &amp;ndash; &amp;ldquo;Design inside-out&amp;rdquo; and 2.3 &amp;ndash; &amp;ldquo;Sometimes, function follows form&amp;rdquo;. These principles are highly correlated. Together, they state a philosophy where the designer respects the physical form, the medium, and the constraints therein, and use these constraints as the foundational ingredients upon which to expand ideas and invite functionalities. The important thing is to never force an idea that might not fit with the form, but rather to be super flexible with the functional goal, and aspire towards a functional design that almost seems like natural extensions of the aesthetic form.</description>
+    </item>
+    
     <item>
       <title>CS476a - Assignment 1</title>
       <link>https://onionhoney.github.io/cs476a/posts/my-first-post/</link>
