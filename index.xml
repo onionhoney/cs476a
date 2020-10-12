@@ -6,7 +6,17 @@
     <description>Recent content on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2020 17:03:39 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 02:06:02 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS476a Hw1 : Audio Visualizer</title>
+      <link>https://onionhoney.github.io/cs476a/posts/audiovis/</link>
+      <pubDate>Mon, 12 Oct 2020 02:06:02 -0400</pubDate>
+      
+      <guid>https://onionhoney.github.io/cs476a/posts/audiovis/</guid>
+      <description>Introduction The Audio Visualizer is called &amp;ldquo;The Space Race Track&amp;rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling on a magical race track in space.
+Narrative &amp;amp; Demo  Screenshots                       Instructions   N to toggle narrative / mic input</description>
+    </item>
+    
     <item>
       <title>CS476a - Reading Response 3</title>
       <link>https://onionhoney.github.io/cs476a/posts/reading-response-3/</link>
@@ -33,16 +43,6 @@
       <guid>https://onionhoney.github.io/cs476a/posts/my-first-post/</guid>
       <description>Reading Response - Chapter 1 In Chapter 1 Ge laid out his principles of artful design, and introduced a very useful language system to capture design as the intersection between the practical and artistic side of things.
 What strikes me as interesting is how he talks about there&amp;rsquo;s not a fine line between engineering, design and art, that there&amp;rsquo;s in fact no need for distinction anymore if you are deeply proficient in all of them (p.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://onionhoney.github.io/cs476a/posts/audiovis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://onionhoney.github.io/cs476a/posts/audiovis/</guid>
-      <description>=== turn in all files through Canvas, with concise online documentation + readme
- webpage page for your project (should be viewable at http://ccrma.stanford.edu/~YOURID/256a/hw2/). It should include:  CS 476a HW1: Audio Visualizer Introduction The Audio Visualizer is called &amp;ldquo;The Space Race Track&amp;rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling through a magical race track in the space.</description>
     </item>
     
   </channel>

@@ -2,17 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title> - Jeffrey Sun&#39;s CS476a Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="" />
-<meta property="og:description" content="=== turn in all files through Canvas, with concise online documentation &#43; readme
- webpage page for your project (should be viewable at http://ccrma.stanford.edu/~YOURID/256a/hw2/). It should include:  CS 476a HW1: Audio Visualizer Introduction The Audio Visualizer is called &ldquo;The Space Race Track&rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling through a magical race track in the space." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>CS476a Hw1 : Audio Visualizer - Jeffrey Sun&#39;s CS476a Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="CS476a Hw1 : Audio Visualizer" />
+<meta property="og:description" content="Introduction The Audio Visualizer is called &ldquo;The Space Race Track&rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling on a magical race track in space.
+Narrative &amp; Demo  Screenshots                       Instructions   N to toggle narrative / mic input" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://onionhoney.github.io/cs476a/posts/audiovis/" />
-
+<meta property="article:published_time" content="2020-10-12T02:06:02-04:00" />
+<meta property="article:modified_time" content="2020-10-12T02:06:02-04:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="=== turn in all files through Canvas, with concise online documentation &#43; readme
- webpage page for your project (should be viewable at http://ccrma.stanford.edu/~YOURID/256a/hw2/). It should include:  CS 476a HW1: Audio Visualizer Introduction The Audio Visualizer is called &ldquo;The Space Race Track&rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling through a magical race track in the space."/>
+<meta name="twitter:title" content="CS476a Hw1 : Audio Visualizer"/>
+<meta name="twitter:description" content="Introduction The Audio Visualizer is called &ldquo;The Space Race Track&rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling on a magical race track in space.
+Narrative &amp; Demo  Screenshots                       Instructions   N to toggle narrative / mic input"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://onionhoney.github.io/cs476a/css/normalize.css" />
@@ -41,41 +42,37 @@
 
 
 		<div class="post-header">
-			<h1 class="title"></h1>
-			<div class="meta">Posted at &mdash; Jan 1, 0001</div>
+			<h1 class="title">CS476a Hw1 : Audio Visualizer</h1>
+			<div class="meta">Posted at &mdash; Oct 12, 2020</div>
 		</div>
 
 		<div class="markdown">
-			<p>===
-turn in all files through Canvas, with concise online documentation + readme</p>
-<ol>
-<li>webpage page for your project (should be viewable at <a href="http://ccrma.stanford.edu/~YOURID/256a/hw2/)">http://ccrma.stanford.edu/~YOURID/256a/hw2/)</a>. It should include:</li>
-</ol>
-<h2 id="cs-476a-hw1-audio-visualizer">CS 476a HW1: Audio Visualizer</h2>
-<h3 id="introduction">Introduction</h3>
+			<h3 id="introduction">Introduction</h3>
 <p>The Audio Visualizer is called &ldquo;The Space Race Track&rdquo;.
-It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling through a magical race track in the space.</p>
+It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling on a magical race track in space.</p>
 <h3 id="narrative--demo">Narrative &amp; Demo</h3>
-<!-- raw HTML omitted -->
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/8iyLSqjQ9DY?origin=http://onionhoney.github.io"
+  frameborder="0"></iframe>
 <h3 id="screenshots">Screenshots</h3>
 <table>
 <thead>
 <tr>
 <th style="text-align:center"></th>
-<th style="text-align:center"></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><img src="audiovis/s0.jpg" alt=""></td>
-<td style="text-align:center"><img src="audiovis/s1.jpg" alt=""></td>
+<td style="text-align:center"><img src="audiovis/s0.png" alt=""></td>
+<td style="text-align:center"><img src="audiovis/s1.png" alt=""></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="audiovis/s2.jpg" alt=""></td>
-<td style="text-align:center"><img src="audiovis/s3.jpg" alt=""></td>
+<td style="text-align:center"><img src="audiovis/s2.png" alt=""></td>
+<td style="text-align:center"><img src="audiovis/s3.png" alt=""></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="audiovis/s4.jpg" alt=""></td>
+<td style="text-align:center"><img src="audiovis/s4.png" alt=""></td>
 <td style="text-align:center"></td>
 </tr>
 </tbody>
@@ -86,7 +83,7 @@ It creates an visual experience of flying through a glowing field of light towar
 <p>N to toggle narrative / mic input</p>
 </li>
 <li>
-<p><input disabled="" type="checkbox"> to control amplitude of flight</p>
+<p>[ ] to control amplitude of flight</p>
 </li>
 <li>
 <p>F to toggle flight mode</p>
@@ -103,17 +100,10 @@ It creates an visual experience of flying through a glowing field of light towar
 </ul>
 <h3 id="links-to-your-files-of-various-kinds">Links to your files of various kinds</h3>
 <h3 id="idea">Idea</h3>
-<p>Motion is at the core of my design. I started out with aligning the music with a mountain-river landscape in mind as I would like to make the viewer feel like they&rsquo;re traveling with the river (i.e. the spectrum hisotry) dynamically as if one with the water, speeding through the mountain landscapes on the side. This is to break away with the existing sndpeek design, where the user just stares at the spectrum graph moving away from a static viewpoint. The design of the form is inspired by this functional requirement of creating a sense of motion for the viewer that aligns with the music.</p>
+<p>Motion is at the core of my design. I started out with a mountain-river landscape in mind, because I love the idea of making the viewer feel like they&rsquo;re traveling with the river (i.e. the spectrum hisotry) dynamically as if one with the water, speeding through the mountain landscapes on the side. This is to break away with the existing <a href="https://soundlab.cs.princeton.edu/software/sndpeek/">sndpeek</a> design, where the user just stares at the spectrum graph moving away from a static viewpoint. The design of the form is inspired by this functional requirement of creating a sense of motion for the viewer that aligns with the music.</p>
 <p>As my design develops, it ultimately gains a style of its own &ndash; a minimalist design that abstracts away the landscape metaphor into curves and light. (Thanks to (an abuse) of the bloom-effect) The abstract visuals now take the metaphor towards a race track in space, a change I&rsquo;m happy to let happen.</p>
 <p>Initially it was difficult to make it &ldquo;read&rdquo;, especially how to make the mountain curves, which is randomly generated, somehow interplay with the waveform and still read. After some trials and errors, I decided simple interpolations just don&rsquo;t work that well. I finally settled on representing volume as short sine wave &ldquo;perturbations&rdquo; on top of the curves. This way the perturbation to the original curve is small enough so that viewers can still perceive the mountain as continuous and at the same time graps its relationship with the audio.</p>
 <p>I was especially grateful to Ge for pointing out its resemblance to the &ldquo;Stargate Sequence&rdquo; scene in <em>2001, a Space Odyssey</em>. I got a lot of inspiration from studying that scene, and use them to enrich my own design and align my expectations. Apart from that, writing the ChucK piece with no prior composing experience was also challenging, and I want to thank my friend Anto for his guidance. Overall, it was a super enjoyable experience.</p>
-<ol start="2">
-<li>also submit to Canvas: source code to the project (please clean up project to remove unnecessary files + test before submitting)</li>
-<li>also submit to Canvas: a high-resolution (screen capture or with camera) video of your visualizer / audio-visual narrative</li>
-<li>also submit to Canvas: screenshots of your visualizer!</li>
-<li>also submit to Canvas: URL to webpage</li>
-<li>an additional README.txt file containing information on your Operating System and any instructions for running the project</li>
-</ol>
 
 		</div>
 
