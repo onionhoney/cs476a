@@ -2,45 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jeffrey Sun&#39;s CS476a Blog</title>
-    <link>https://onionhoney.github.io/cs476/posts/</link>
+    <link>https://onionhoney.github.io/cs476a/posts/</link>
     <description>Recent content in Posts on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2020 02:06:02 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 02:06:02 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS476a Hw1 : Audio Visualizer</title>
-      <link>https://onionhoney.github.io/cs476/posts/audiovis/</link>
+      <link>https://onionhoney.github.io/cs476a/posts/audiovis/</link>
       <pubDate>Mon, 12 Oct 2020 02:06:02 -0400</pubDate>
       
-      <guid>https://onionhoney.github.io/cs476/posts/audiovis/</guid>
+      <guid>https://onionhoney.github.io/cs476a/posts/audiovis/</guid>
       <description>Introduction The Audio Visualizer is called &amp;ldquo;The Space Race Track&amp;rdquo;. It creates an visual experience of flying through a glowing field of light towards the distance, surrounded by curved shapes on the sides, as if traveling on a magical race track in space.
 Narrative &amp;amp; Demo  Screenshots                       Instructions   N to toggle narrative / mic input</description>
     </item>
     
     <item>
+      <title>CS476a - Reading Response 4</title>
+      <link>https://onionhoney.github.io/cs476a/posts/reading-response-4/</link>
+      <pubDate>Sat, 10 Oct 2020 17:00:39 -0400</pubDate>
+      
+      <guid>https://onionhoney.github.io/cs476a/posts/reading-response-4/</guid>
+      <description>In Chapter 4 of Artful Design, Ge revisited the beginning of computer music, and explored what is truly unique about programming and how it can be applied to make interesting music. The guiding principle throughout this chapter, in my opinion, is the observation, or perhaps belief, phrased in Principle 4.5 (p. 181):
+Design things with a computer that would not be possible without.
+Previous chapters have touched on some of the unique powers of programming, namely the ability to make copies and form organic systems out of individual elements.</description>
+    </item>
+    
+    <item>
       <title>CS476a - Reading Response 3</title>
-      <link>https://onionhoney.github.io/cs476/posts/reading-response-3/</link>
+      <link>https://onionhoney.github.io/cs476a/posts/reading-response-3/</link>
       <pubDate>Sun, 04 Oct 2020 16:05:39 -0400</pubDate>
       
-      <guid>https://onionhoney.github.io/cs476/posts/reading-response-3/</guid>
-      <description></description>
+      <guid>https://onionhoney.github.io/cs476a/posts/reading-response-3/</guid>
+      <description>In Chapter 3 of Artful Design, Ge talks about visual design in the context of interactive software. Through case studies of Ocarina and other pieces, Ge introduces many principles as lenses to inform design.
+While computer programming is not explicitly stated here to keep the discussion at a general level, many of the principles here do really shine when examined at the scope of creating engaging and lively experiences out of an otherwise rigid and mechanical device that is programming.</description>
     </item>
     
     <item>
       <title>CS476a - Reading Response 2</title>
-      <link>https://onionhoney.github.io/cs476/posts/reading-response-2/</link>
+      <link>https://onionhoney.github.io/cs476a/posts/reading-response-2/</link>
       <pubDate>Sun, 27 Sep 2020 17:03:39 -0400</pubDate>
       
-      <guid>https://onionhoney.github.io/cs476/posts/reading-response-2/</guid>
+      <guid>https://onionhoney.github.io/cs476a/posts/reading-response-2/</guid>
       <description>For this week&amp;rsquo;s reading, I&amp;rsquo;d like to respond to principle 2.2 &amp;ndash; &amp;ldquo;Design inside-out&amp;rdquo; and 2.3 &amp;ndash; &amp;ldquo;Sometimes, function follows form&amp;rdquo;. These principles are highly correlated. Together, they state a philosophy where the designer respects the physical form, the medium, and the constraints therein, and use these constraints as the foundational ingredients upon which to expand ideas and invite functionalities. The important thing is to never force an idea that might not fit with the form, but rather to be super flexible with the functional goal, and aspire towards a functional design that almost seems like natural extensions of the aesthetic form.</description>
     </item>
     
     <item>
       <title>CS476a - Assignment 1</title>
-      <link>https://onionhoney.github.io/cs476/posts/my-first-post/</link>
+      <link>https://onionhoney.github.io/cs476a/posts/my-first-post/</link>
       <pubDate>Mon, 21 Sep 2020 01:03:39 -0400</pubDate>
       
-      <guid>https://onionhoney.github.io/cs476/posts/my-first-post/</guid>
+      <guid>https://onionhoney.github.io/cs476a/posts/my-first-post/</guid>
       <description>Reading Response - Chapter 1 In Chapter 1 Ge laid out his principles of artful design, and introduced a very useful language system to capture design as the intersection between the practical and artistic side of things.
 What strikes me as interesting is how he talks about there&amp;rsquo;s not a fine line between engineering, design and art, that there&amp;rsquo;s in fact no need for distinction anymore if you are deeply proficient in all of them (p.</description>
     </item>
