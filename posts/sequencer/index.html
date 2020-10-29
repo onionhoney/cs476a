@@ -140,6 +140,13 @@ It dawns on me each figure must be an independent player, who can be placed anyw
 <li>S followed by [0-9] to save current stage to the corresponding slot.</li>
 <li>L followed by [0-9] to load a certain stage.</li>
 <li>G to toggle pitch Grid.</li>
+<li>Drag to black hole to remove elements!! (tribute to Kids)</li>
+<li>When hovering on player,
+<ul>
+<li>C to clear its beat pattern.</li>
+<li>Spacebar to add the current beat to the player&rsquo;s pattern.</li>
+</ul>
+</li>
 </ul>
 <h2 id="last-thoughts">Last Thoughts</h2>
 <p>It&rsquo;d be nice to have global arrays in Chunity! I implemented a queue system to update arrays to Chuck by sending one (index, value) pair from the queue per frame, but that felt a bit awkward cuz I had to constantly think about doing diffs to minimize wasteful syncs, that complicates the code. If we have global arrays, the entire game state can be synced in one go, and that&rsquo;ll ease up the spaghetti quite a bit!</p>
