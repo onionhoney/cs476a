@@ -4,16 +4,18 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>CS476a HW3: Interactive AudioVisual Music Sequencer - Jeffrey Sun&#39;s CS476a Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="CS476a HW3: Interactive AudioVisual Music Sequencer" />
-<meta property="og:description" content="(Hi Kunwoo sorry i&rsquo;ll fill in the text content by tonight! But here&rsquo;s the video link first )
-Video Demo  Screenshots               Initial Research &amp; Motivations System Design Source Code How to Install How to Use it (Part 3 of 3) &quot;Playable Prototype&quot; given the short timeframe, please aim for a semi-polished playable prototype Musical Statement &#43; In-Class Presentation using your sequencer, create a short musical statement create a short but polished video of a &quot;mini-performance&quot; of your sequencer be prepared to present it in class create a webpage for your audiovisual sequencer, which must contain: one or more screenshot(s) your sequencer &quot;mini-performance&quot; video your initial design sketches &#43; research, motivate and articulate how you made your design decisions system design: how is your software architected?" />
+<meta property="og:description" content="The Stage &ndash; A Sequencer Video Demo  Screenshots               Sketches (Unfortunately I did not have this idea in my three initial sketches, but I&rsquo;ve attached the sprite sheet below, to illustrate the design process:
+Initial Research &amp; Motivations Screenshot from Hidden Folks
+I have long been fascinated with the game Hidden Folks, a hidden object game where you&rsquo;re to locate an item in a scene made of up thousands of animated objects." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://onionhoney.github.io/cs476a/posts/sequencer/" />
 <meta property="article:published_time" content="2020-10-28T13:50:55-04:00" />
 <meta property="article:modified_time" content="2020-10-28T13:50:55-04:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CS476a HW3: Interactive AudioVisual Music Sequencer"/>
-<meta name="twitter:description" content="(Hi Kunwoo sorry i&rsquo;ll fill in the text content by tonight! But here&rsquo;s the video link first )
-Video Demo  Screenshots               Initial Research &amp; Motivations System Design Source Code How to Install How to Use it (Part 3 of 3) &quot;Playable Prototype&quot; given the short timeframe, please aim for a semi-polished playable prototype Musical Statement &#43; In-Class Presentation using your sequencer, create a short musical statement create a short but polished video of a &quot;mini-performance&quot; of your sequencer be prepared to present it in class create a webpage for your audiovisual sequencer, which must contain: one or more screenshot(s) your sequencer &quot;mini-performance&quot; video your initial design sketches &#43; research, motivate and articulate how you made your design decisions system design: how is your software architected?"/>
+<meta name="twitter:description" content="The Stage &ndash; A Sequencer Video Demo  Screenshots               Sketches (Unfortunately I did not have this idea in my three initial sketches, but I&rsquo;ve attached the sprite sheet below, to illustrate the design process:
+Initial Research &amp; Motivations Screenshot from Hidden Folks
+I have long been fascinated with the game Hidden Folks, a hidden object game where you&rsquo;re to locate an item in a scene made of up thousands of animated objects."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://onionhoney.github.io/cs476a/css/normalize.css" />
@@ -47,7 +49,7 @@ Video Demo  Screenshots               Initial Research &amp; Motivations System 
 		</div>
 
 		<div class="markdown">
-			<p>(Hi Kunwoo sorry i&rsquo;ll fill in the text content by tonight! But here&rsquo;s the video link first )</p>
+			<h1 id="the-stage----a-sequencer">The Stage &ndash; A Sequencer</h1>
 <h2 id="video-demo">Video Demo</h2>
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/sbGyybG9EqY?origin=http://onionhoney.github.io"
@@ -67,11 +69,81 @@ Video Demo  Screenshots               Initial Research &amp; Motivations System 
 </tr>
 </tbody>
 </table>
+<h2 id="sketches">Sketches</h2>
+<p>(Unfortunately I did not have this idea in my three initial sketches, but I&rsquo;ve attached the sprite sheet below, to illustrate the design process:</p>
+<p><img src="sequencer/spritesheet.png" alt=""></p>
 <h2 id="initial-research--motivations">Initial Research &amp; Motivations</h2>
+<p><img src="https://cdn.vox-cdn.com/thumbor/WGB0fsOwpvnZORTjK-O7xgMCbzs=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19986314/EYYaZ__XYAADHPZ.png" alt="">
+Screenshot from <em>Hidden Folks</em></p>
+<p>I have long been fascinated with the game <em>Hidden Folks</em>, a hidden object game where you&rsquo;re to locate an item in a scene made of up thousands of animated objects.  I love how people inside the game are animated, full of actions (walking around, sitting and jumping, or tinkering with stuff), despite the simple line-drawing art form. Staring at these people move in fantastical ways in their miniature world is quite a fun experience, so I naturally asked the question, &ldquo;how can I make music out of this visual form?&rdquo;</p>
+<p><img src="" alt=""></p>
+<p>Then I think about how to make the story plausible. Or, citing Ge, how to design in a way that people will say, &ldquo;it&rsquo;s gotta be this way&rdquo;?
+It dawns on me each figure must be an independent player, who can be placed anywhere on the stage and fully in control of an entire instrument over all steps, instead of lining up with other figures to serve as a single, fixed note in a score sheet. Only in this way can the audio-visual correpondence truly feel natural &mdash; that this conveys the feeling of a lively scene where a group of free individuals randomly jams music together, not following any premade, mechanical coordination.</p>
+<p>Spatial audio techniques also become a core motivation. How does the coordinates of players &mdash; now that their position is unconstrained &ndash; map to some kind of sound property? I decided to cook up a third type of object, besides player and instruments &ndash; modifiers, who&rsquo;s sole purpose is to modify the nearest instrument. I settled on loud speakers that increase the gain as a function of distance, and it turned out to have a great audio visual correspondence!</p>
+<p>Finally as a last thought, I added a pitch system for the pitched instruments, according to the y coordinate of the player, while leaving the x coordinate alone so that visually it still looks we have enough freedom to cavsually move things around. This concept of &ldquo;loose spatial mapping&rdquo; is at the core of my design motivation &ndash; let&rsquo;s make a scene that makes use of spatial info without hurting the casualness of choosing any object layout as we like.</p>
 <h2 id="system-design">System Design</h2>
+<ul>
+<li>
+<p>Timing is driven by Chuck: chuck counts how many beats have elapsed and sends current beat number to unity, and unity updates animation accordingly on the edge.</p>
+</li>
+<li>
+<p>Modeling of the sequencer is established in Unity, then synced with ChuCk. Chuck model is designed orthogonally so that ChucK can immediately update the sound in the very next beat.</p>
+</li>
+<li>
+<p>As mentioned below, a queue system is invented to send arrays to ChucK by sending one (index, value) pair at a time from the queue head.</p>
+</li>
+<li>
+<p>Within unity, here&rsquo;s how the modeling works:</p>
+<ul>
+<li>
+<p>There are three types of objects: <strong>the player, the instrument, and the modifier.</strong></p>
+</li>
+<li>
+<p>What is synced to chuck: List of <strong>Instrument Descriptions</strong>:</p>
+<ul>
+<li>instrument type</li>
+<li>beat (inherited from player, 0 means inactive)</li>
+<li>gain (affected by modifier)</li>
+<li>y-coord percentage (chuck will then calculate pitch)</li>
+</ul>
+</li>
+<li>
+<p>The instrument is the source of sound: it is activated whenever there&rsquo;s a player close enough to it.</p>
+</li>
+<li>
+<p>Each player has a &ldquo;beat&rdquo; attribute, that is an integer correspond to 8-bit on/off of our 8-step sequencer.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Within unity, here&rsquo;s how to update the model according to changes in the scene:</p>
+<ul>
+<li>Each frame, coupling is updated. Whenever a new (instrument, player) coupling occurs, the instrument&rsquo;s beat is set to the player&rsquo;s beat, and the player is marked as active.</li>
+<li>Whenver a player is playing the upcoming beat, an animation is launched.</li>
+<li>Each modifier will find the nearest instrument, and update its gain.</li>
+<li>Finally, instrument y-coord is updated with that of its active player.</li>
+</ul>
+</li>
+</ul>
 <h2 id="source-code">Source Code</h2>
+<p>Download the unity package <a href="https://drive.google.com/file/d/11cb3NzH6sZOvcbmomVorsmnhLy9K-hK_/view?usp=sharing">here</a>.</p>
 <h2 id="how-to-install">How to Install</h2>
+<p>Import the packages in latest version of unity and hit play! You might want to check out Chunity tutorials online to make sure you have Chuck-related dependencies installed first.</p>
 <h2 id="how-to-use-it">How to Use it</h2>
+<p>List of controls</p>
+<ul>
+<li>Digit key to add instrument (1 - 7)</li>
+<li>N to add a player</li>
+<li>M to add an audience. An audience will clap to the nearest player if they are close enough.</li>
+<li>A/D to adjust global gain.</li>
+<li>-/= to adjust global rate.</li>
+<li>S followed by [0-9] to save current stage to the corresponding slot.</li>
+<li>L followed by [0-9] to load a certain stage.</li>
+<li>G to toggle pitch Grid.</li>
+</ul>
+<h2 id="last-thoughts">Last Thoughts</h2>
+<p>It&rsquo;d be nice to have global arrays in Chunity! I implemented a queue system to update arrays to Chuck by sending one (index, value) pair from the queue per frame, but that felt a bit awkward cuz I had to constantly think about doing diffs to minimize wasteful syncs, that complicates the code. If we have global arrays, the entire game state can be synced in one go, and that&rsquo;ll ease up the spaghetti quite a bit!</p>
+<h2 id="appendix">Appendix</h2>
 <pre><code>(Part 3 of 3) &quot;Playable Prototype&quot;
 given the short timeframe, please aim for a semi-polished playable prototype
 Musical Statement + In-Class Presentation

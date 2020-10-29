@@ -13,8 +13,9 @@
       <pubDate>Wed, 28 Oct 2020 13:50:55 -0400</pubDate>
       
       <guid>https://onionhoney.github.io/cs476a/posts/sequencer/</guid>
-      <description>(Hi Kunwoo sorry i&amp;rsquo;ll fill in the text content by tonight! But here&amp;rsquo;s the video link first )
-Video Demo  Screenshots               Initial Research &amp;amp; Motivations System Design Source Code How to Install How to Use it (Part 3 of 3) &amp;quot;Playable Prototype&amp;quot; given the short timeframe, please aim for a semi-polished playable prototype Musical Statement + In-Class Presentation using your sequencer, create a short musical statement create a short but polished video of a &amp;quot;mini-performance&amp;quot; of your sequencer be prepared to present it in class create a webpage for your audiovisual sequencer, which must contain: one or more screenshot(s) your sequencer &amp;quot;mini-performance&amp;quot; video your initial design sketches + research, motivate and articulate how you made your design decisions system design: how is your software architected?</description>
+      <description>The Stage &amp;ndash; A Sequencer Video Demo  Screenshots               Sketches (Unfortunately I did not have this idea in my three initial sketches, but I&amp;rsquo;ve attached the sprite sheet below, to illustrate the design process:
+Initial Research &amp;amp; Motivations Screenshot from Hidden Folks
+I have long been fascinated with the game Hidden Folks, a hidden object game where you&amp;rsquo;re to locate an item in a scene made of up thousands of animated objects.</description>
     </item>
     
     <item>
