@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2020 13:50:55 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 13:50:55 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS476a Final Project</title>
+      <link>https://onionhoney.github.io/cs476a/posts/final-project/</link>
+      <pubDate>Sun, 01 Nov 2020 13:50:55 -0400</pubDate>
+      
+      <guid>https://onionhoney.github.io/cs476a/posts/final-project/</guid>
+      <description>Part 1 of 3: Three Proposals </description>
+    </item>
+    
     <item>
       <title>CS476a HW3: Interactive AudioVisual Music Sequencer</title>
       <link>https://onionhoney.github.io/cs476a/posts/sequencer/</link>
