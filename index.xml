@@ -6,7 +6,17 @@
     <description>Recent content on Jeffrey Sun&#39;s CS476a Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 23:56:04 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 02:16:51 -0400</lastBuildDate><atom:link href="https://onionhoney.github.io/cs476a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS476a - Reading Response 8</title>
+      <link>https://onionhoney.github.io/cs476a/posts/reading-response-8/</link>
+      <pubDate>Mon, 09 Nov 2020 02:16:51 -0400</pubDate>
+      
+      <guid>https://onionhoney.github.io/cs476a/posts/reading-response-8/</guid>
+      <description>What is the book Artful Design really about? At the concluding chapter (Chapter 8: Manifesto, a philosophy of artful design), the book finally revealed its moral teachings. Perhaps none summarized the guidance better than the principle on page 412, revised from Principle 1.15:
+&amp;quot;Design not only from needs -- but from the values behind them. &amp;quot; It is a powerful call to engineers, to proactively shape their design so it truly understands humans and does a greater good than merely fulfilling its functional specs.</description>
+    </item>
+    
     <item>
       <title>CS476a - Reading Response 7</title>
       <link>https://onionhoney.github.io/cs476a/posts/reading-response-7/</link>
@@ -54,15 +64,6 @@ I have long been fascinated with the game Hidden Folks, a hidden object game whe
       <guid>https://onionhoney.github.io/cs476a/posts/reading-response-5/</guid>
       <description>In Chapter 5 of Artful Design, Ge talks about interfaces design as an aesthetics that emerges from the human-technology interaction.
 Again, the core motivation here is while computers are extremely powerful, the logical, mechanical functionalities it provides will not always help make better interfaces that makes sense to a human. When we play traditional instruments, we feel connected because the interface feels natural, easy, elegant to operate on, as if part of us.</description>
-    </item>
-    
-    <item>
-      <title>HW3: Sequencer Sketch</title>
-      <link>https://onionhoney.github.io/cs476a/posts/sequencer-sketch/</link>
-      <pubDate>Wed, 14 Oct 2020 13:50:55 -0400</pubDate>
-      
-      <guid>https://onionhoney.github.io/cs476a/posts/sequencer-sketch/</guid>
-      <description>Glossary CV/gate : analog control of voltage(pitch) and note-on (gate) MIDI : digital control Quantization: The process that results in notes being set on beats and on exact fractions of beats. Polyphonic or no: Is it able to play multiple notes simultaneously The step sequencers played rigid patterns of notes using a grid of (usually) 16 buttons, or steps, each step being 1/16 of a measure. These patterns of notes were then chained together to form longer compositions.</description>
     </item>
     
     <item>
